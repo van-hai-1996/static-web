@@ -144,6 +144,25 @@ header.header a:hover {
     background-color: #33344a;
 }
 
+.about {
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.infor {
+    margin-bottom: 20px;
+} 
+
+.infor h2 {
+    margin: 20px;
+}
+
+.about img {
+    max-width: 80%;
+}
+
 /* Header/logo tiêu đề */
 
 
