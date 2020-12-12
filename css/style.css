@@ -66,6 +66,84 @@ header.header a:hover {
     align-items: center;
 }
 
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.courses-items {
+    width: 370px;
+    height: 480px;
+    background-color: #11114E;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+  
+.courses-items-img {
+    height: 50%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-items-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+  
+.courses-items-text {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 15px 15px;
+}
+  
+.courses-items-text h1 {
+    font: bold 30px;
+    color: #121212;
+    margin: 20px 0 15px 0;
+}
+  
+.courses-items-text p {
+    font: normal 14px;
+    color: #505353;
+    text-align: center;
+    margin: 0 37px;
+}
+  
+.courses-items-text a {
+    text-decoration: none;
+    background-color: #464775;
+    width: 200px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 18px;
+    color: white;
+    border-radius: 22px;
+    margin-top: 15px;
+    padding-bottom: 3px;
+}
+  
+.courses-items-text a:hover {
+    box-shadow: none;
+    background-color: #33344a;
+}
+
 /* Header/logo tiêu đề */
 
 
