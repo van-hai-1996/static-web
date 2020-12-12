@@ -11,28 +11,31 @@
 </head>
 
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
-    <nav>
+    <header class="header">
+        <img src="img/logo.png">
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            <li><a href="#" data-section="home">Trang Chủ</a></li>
+            <li><a href="#" data-section="services">Khoá Học</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <a href="javascript:void(0)" class="dropbtn">Bài Học</a>
                 <div class="dropdown-content">
                     <a data-section="link1">Link 1</a>
                     <a data-section="link2">Link 2</a>
                     <a data-section="link3">Link 3</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li><a href="#" data-section="about">About Me</a></li>
         </ul>
-    </nav>
+    </header>
 
-    <section id="home" class="hideable-section">
-        <div>Home content</div>
+    <section id="home" class="hideable-section home">
+        <div class="home-text">
+            <h1>
+                Học Bất Kỳ Đâu <br>
+                Với <br>
+                Microsoft Teams
+            </h1>
+        </div>
     </section>
 
     <section id="services" class="hideable-section">
@@ -57,7 +60,7 @@
 
     <script>
         $(function() {
-            $('nav ul li a').click(function() {
+            $('ul li a').click(function() {
                 // Lấy section để hiển thị
                 var $section = $('#' + $(this).data('section'));
 
